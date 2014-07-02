@@ -1,0 +1,64 @@
+Todo el Dia Drogado, Toco De oiDo
+=================================
+
+Empiezo con una pregunta:
+------------------------
+
+- Cuando programan cómo saben que terminaron?
+
+Otra frase:
+-----------
+
+Lo que no se puede medir no existe...
+
+--------------------------------------------
+
+Qué es TDD?
+
+Test Driven Development.
+
+2 Simples reglas:
+=================
+
+- En TDD escribes nuevo código únicamente si tenés un test que falla.
+- Eliminar duplicación.
+
+---------------------------------------------
+
+- Diseñar en forma orgánica.
+- Escribís tus propios tests.
+- Tu entorno de desarrollo debe proveer una respuesta rápida a los pequeños cambios.
+- Componentes altamente cohesivos y con poco acoplamiento.
+
+---------------------------------------------
+
+El mantra del TDD
+=================
+
+- Red             Test fallando.
+- Green           Implementar rápido y sucio. 
+- Refactoring.    Eliminar la duplicación.
+
+----------------------------------------------
+
+Explicación del cricked y el algibe
+====================================
+
+----------------------------------------------
+
+Ejemplo de TDD.
+
+----------------------------------------------
+
+Consejos de como empezar:
+=========================
+
+- Concentrarse en aprender a testear, no en el framework.
+- No usar Rspec ni nada complicado.
+- Instalar ruby y usar minitest.
+
+----------------------------------------------
+
+Fuente: TDD by example (Kent Beck)
+
+Fin.
