@@ -9,7 +9,6 @@
 
 # Qué es TDD?
 
-
 Test Driven Development.
 
 Es una herramienta de diseño de software.
@@ -18,36 +17,20 @@ Es una herramienta de diseño de software.
 
 # 2 Simples reglas:
 
-
 * En TDD escribes nuevo código únicamente si tenés un test que falla.
 * Eliminar duplicación.
 
 !SLIDE
 
-# ?
-
-* Diseñar en forma orgánica.
-* Escribís tus propios tests.
-* Respuesta rápida a los pequeños cambios.
-* Altamente cohesivo y con poco acoplamiento.
-
-!SLIDE
-
 # El mantra del TDD
 
-* Red             Test fallando.
-* Green           Implementar rápido y sucio. 
-* Refactoring.    Eliminar la duplicación.
+* [ Red ]            Test fallando.
+* [ Green ]          Implementar rápido y sucio. 
+* [ Refactoring ]    Eliminar la duplicación.
 
 !SLIDE
 
 ![Algibe](algibe.jpeg)
-
-!SLIDE
-
-# Ejemplo de TDD. Rot 13
-
-![Algibe](img/rot13-table.png)
 
 !SLIDE
 
@@ -85,6 +68,8 @@ Only abstract when you have two or more tests.
 
 !SLIDE
 
+# Triangulate.
+
     def suma(a, b)
       a + b
     end
@@ -97,6 +82,7 @@ Only abstract when you have two or more tests.
 # Obvious implementation.
 
 Como implementamos las operaciones simples?
+
 Sólamente las implementamos y listo.
 
 !SLIDE
@@ -110,10 +96,16 @@ para la colección.
 
 !SLIDE
 
+## Ejemplo de TDD. Rot 13
+
+![Rot 13](rot13-table.png)
+
+!SLIDE
+
 # Consejos de como empezar:
 
 * Concentrarse en aprender a testear, no en el framework.
-* No usar Rspec ni nada complicado.
+* No usar nada complicado.
 * Instalar Ruby y usar Minitest.
 
 !SLIDE
