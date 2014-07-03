@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 
 class Rot
-  @@plain_chars_set = "abcdefghijklmnopqrstuvwxyz"
+  @@plain_chars_set = ("a".."z").to_a.join
 
   def initialize(message, replace_chars_set = "nopqrstuvwxyzabcdefghijklm")
     @replace_chars_set = replace_chars_set
