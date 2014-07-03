@@ -104,9 +104,9 @@ para la colección.
 
 # Consejos de como empezar:
 
-* Concentrarse en aprender a testear, no en el framework.
-* No usar nada complicado.
-* Instalar Ruby y usar Minitest.
+* Concentrarse en aprender a testear.
+* No usar nada complicado, Instalar Ruby y usar Minitest.
+* Pedir ayuda.
 
 !SLIDE
 
