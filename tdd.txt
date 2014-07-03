@@ -1,21 +1,22 @@
-Todo el Dia Drogado, Toco De oiDo
-=================================
+Green Development
+=================
 
 Empiezo con una pregunta:
 ------------------------
 
 - Cuando programan cómo saben que terminaron?
 
-Otra frase:
------------
-
-Lo que no se puede medir no existe...
-
 --------------------------------------------
 
 Qué es TDD?
 
 Test Driven Development.
+
+--------------------------------------------
+
+Es una herramienta de diseño de software.
+
+-------------------------------------------
 
 2 Simples reglas:
 =================
@@ -49,6 +50,63 @@ Explicación del cricked y el algibe
 Ejemplo de TDD.
 
 ----------------------------------------------
+
+Green bar patterns
+==================
+
+Fake it
+========
+
+return a constant, gradually transform into an expression using variables.
+
+Por qué ?
+
+hay dos efectos que hacen que el fake it sea poderoso:
+
+* Psicológico:  (Greean bar feels completely different of having a red bar)
+               Podés refactorear con confianza.
+
+* Scope Control: Los programadores son buenos todo tipo de problemas futuros.
+                 FOCUS on the example.
+
+Triangulate.
+===========
+
+Only abstract when you have two or more tests.
+
+def suma(a, b)
+  4
+end
+
+assert_equal 3, suma(3, 1)
+
+----------------------------
+
+def suma(a, b)
+  a + b
+end
+
+assert_equal 3, suma(3, 1)
+assert_equal 7, suma(4, 3)
+
+----------------------------
+
+Obvious implementation.
+======================
+
+Como implementamos las operaciones simples?
+Sólamente las implementamos y listo.
+
+
+One to Many
+============
+
+Cómo implementamos una operación que funciona para una colección de objetos?
+
+Primero lo hacemos funcionar para uno sólo y luego hacemos que funcione
+para la colección.
+
+-----------------------------
 
 Consejos de como empezar:
 =========================
