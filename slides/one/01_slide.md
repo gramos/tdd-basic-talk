@@ -115,3 +115,7 @@ para la colección.
 Fuente: TDD by example (Kent Beck)
 
 [http://gastonramos.com.ar](http://gastonramos.com.ar)
+
+El código de la charla y los ejemplos de rot-13 están en mi github:
+
+[https://github.com/gramos/truchar-y-triangular](https://github.com/gramos/truchar-y-triangular)
