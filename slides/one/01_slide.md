@@ -1,9 +1,21 @@
 !SLIDE
 
-# Truchar y Triangular.
+# Introducción a Test Driven Development.
 
-"Los trucos que cualquier programador haragán tiene que saber"
---------------------------------------------------------------
+"¿Cuanta libertad querés para programar?"
+----------------------------------------
+
+!SLIDE
+
+# TDD y Libertad.
+
+* Modificar / Refactorizar.
+
+* Menos Stress.
+
+* Más confianza.
+
+* Sin Miedo.
 
 !SLIDE
 
@@ -24,11 +36,13 @@ Es una herramienta de diseño de software.
 
 # El mantra del TDD
 
-* [ Red ]            Test fallando.
-* [ Green ]          Implementar rápido y sucio. 
-* [ Refactoring ]    Eliminar la duplicación.
+* *[ Red ]*            Test fallando.
+* *[ Green ]*          Implementar rápido y sucio. 
+* *[ Refactoring ]*    Eliminar la duplicación.
 
 !SLIDE
+
+# Avanzamos de pequeños pasos más seguros.
 
 ![Algibe](algibe.jpeg)
 
@@ -64,7 +78,7 @@ Only abstract when you have two or more tests.
       4
     end
 
-    assert_equal 3, suma(3, 1)
+    assert_equal 4, suma(3, 1)
 
 !SLIDE
 
@@ -74,7 +88,7 @@ Only abstract when you have two or more tests.
       a + b
     end
 
-    assert_equal 3, suma(3, 1)
+    assert_equal 4, suma(3, 1)
     assert_equal 7, suma(4, 3)
 
 !SLIDE
@@ -102,10 +116,51 @@ para la colección.
 
 !SLIDE
 
-# Consejos de como empezar:
+# TDD patterns
+
+!SLIDE
+
+# Test n.
+
+- *Cómo testeas tu software?*
+
+- *Escribe un test automático.*
+
+!SLIDE
+
+# Isolated test. 
+
+- *Cómo debe afectar la ejecución de los tests entre sí?*
+
+- *Para nada.*
+
+Soluciones altamente cohesivas, débilmente acopladas.
+
+!SLIDE
+
+# Test list.
+
+ - *Qué debo testear?*
+
+ - *Escribe una lista antes de empezar.*
+
+
+!SLIDE
+
+# Test first.
+
+- *Cuándo debemos escribir nuestros tests?* 
+
+- *Antes de escribir el código que va a ser testeado.* 
+
+!SLIDE
+
+# Consejos, como empezar:
 
 * Concentrarse en aprender a testear.
+
 * No usar nada complicado, Instalar Ruby y usar Minitest.
+
 * Pedir ayuda.
 
 !SLIDE
