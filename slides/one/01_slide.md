@@ -5,17 +5,35 @@
 "¿Cuanta libertad querés para programar?"
 ----------------------------------------
 
+*por Gastón Ramos*
+
+![Mono](../img/mono.jpg)
+
 !SLIDE
 
-# TDD y Libertad.
+# Muchas veces...
 
-* Modificar / Refactorizar.
+* Programar con miedo.
+* Miedo a Modificar / Refactorizar.
+* Miedo a pasar a producción.
+* Miedo a los bugs.
+* Desconfianza.
 
-* Menos Stress.
+!SLIDE
 
-* Más confianza.
+# Les prometo...
 
-* Sin Miedo.
+* Más seguros mientras programamos.
+* Valentía al Modificar / Refactorizar.
+* Producción más rápido y más seguido.
+* Menos bugs.
+* Confianza.
+
+!SLIDE
+
+# Libertad!
+
+![Gaviota](../img/gaviota.jpg)
 
 !SLIDE
 
@@ -36,9 +54,9 @@ Es una herramienta de diseño de software.
 
 # El mantra del TDD
 
-* *[ Red ]*            Test fallando.
-* *[ Green ]*          Implementar rápido y sucio. 
-* *[ Refactoring ]*    Eliminar la duplicación.
+* **[ Red ]**            Test fallando.
+* **[ Green ]**          Implementar rápido y sucio. 
+* **[ Refactoring ]**    Eliminar la duplicación.
 
 !SLIDE
 
