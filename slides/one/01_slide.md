@@ -48,6 +48,7 @@ Es una herramienta de diseño de software.
 # 2 Simples reglas:
 
 * En TDD escribes nuevo código únicamente si tenés un test que falla.
+* Primero escribís el test.
 * Eliminar duplicación.
 
 !SLIDE
@@ -92,11 +93,22 @@ Hay dos efectos que hacen que el fake it sea poderoso:
 
 Only abstract when you have two or more tests.
 
+    assert_equal 4, suma(3, 1)
+
+!SLIDE
+
+# Triangulate.
+
     def suma(a, b)
       4
     end
 
+!SLIDE
+
+# Triangulate.
+
     assert_equal 4, suma(3, 1)
+    assert_equal 7, suma(4, 3)
 
 !SLIDE
 
@@ -105,9 +117,6 @@ Only abstract when you have two or more tests.
     def suma(a, b)
       a + b
     end
-
-    assert_equal 4, suma(3, 1)
-    assert_equal 7, suma(4, 3)
 
 !SLIDE
 
@@ -191,4 +200,4 @@ Fuente: TDD by example (Kent Beck)
 
 El código de la charla y los ejemplos de rot-13 están en mi github:
 
-[https://github.com/gramos/truchar-y-triangular](https://github.com/gramos/truchar-y-triangular)
+[https://github.com/gramos](https://github.com/gramos)
